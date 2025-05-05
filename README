@@ -1,0 +1,37 @@
+# Sorting Algorithm Comparison Program
+
+Bu proje, farklı sıralama algoritmalarını karşılaştırmak için bir Java uygulamasıdır. Kullanıcı, sıralama algoritmasını, veri sırasını, veri giriş yöntemini ve dizi boyutunu seçerek algoritmaların performansını test edebilir.
+
+## Özellikler
+
+- **Desteklenen Sıralama Algoritmaları**:
+  - Insertion Sort
+  - Merge Sort
+  - Heap Sort
+  - Quick Sort
+
+- **Veri Sırası Seçenekleri**:
+  - Artan (Increasing)
+  - Azalan (Decreasing)
+  - Rastgele (Random)
+
+- **Veri Giriş Yöntemleri**:
+  - Dosyadan yükleme
+  - Rastgele veri oluşturma
+
+- **Dizi Boyutları**:
+  - 1K (1000 eleman)
+  - 10K (10.000 eleman)
+  - 100K (100.000 eleman)
+
+- **Sonuçlar**:
+  - Sıralama süresi (milisaniye cinsinden)
+  - Sıralanmış veriler bir dosyaya kaydedilir.
+
+## Kullanım
+
+### 1. Uygulamayı Çalıştırma
+Uygulamayı çalıştırmak için `Main.java` dosyasını derleyip çalıştırın:
+```bash
+javac [Main.java](http://_vscodecontentref_/0)
+java Main
